@@ -1,0 +1,25 @@
+# Dependências e arquivos gerados
+node_modules/
+dist/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Configurações locais e segredos
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Ferramentas e arquivos temporários
+.codex/
+.agents/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
